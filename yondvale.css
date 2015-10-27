@@ -1,0 +1,113 @@
+#name
+{
+  text-align: left;
+  font-size: 20px;
+  opacity: 0;
+  animation: mymove 3s;
+  animation-delay: 2s;
+  color: grey;
+}
+
+#statement
+{
+  opacity: 0;
+  font-size: 50;
+  animation: mymove2 6s;
+  animation-delay: 6s;
+  color: orange;
+}
+
+#continue
+{
+  opacity: 0;
+  animation: mymove3 3s;
+  animation-duration: 120s;
+  animation-delay: 13s;
+}
+
+#container 
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 760px;
+	height: auto;
+	position: static;
+	font-size: 0;
+}
+
+#topsec
+{
+	position: static;
+	background-color: black;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#mainsec
+{
+	position: static;
+	background-color: black;
+	font-size: 22px;
+	text-decoration: underline;
+	-webkit-text-decoration-color: white;
+	text-align: center;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+#namesec 
+{
+	background-color: black;
+	position: static;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ok
+{
+position: static;
+	top: 500px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+
+
+
+p
+{
+	text-align: center;	
+}
+
+body
+{
+	font-family: sans-serif;
+
+}
+
+
+audio 
+{ 
+   display:none;
+}
+
+@keyframes mymove {
+    from {opacity: 1;}
+    to {opacity: 1;}
+}
+
+@keyframes mymove2 {
+    from {opacity: 1;}
+    to {opacity: 1;}
+}
+
+@keyframes mymove3 {
+    from {opacity: 1;}
+    to {opacity: 1;}
+}
