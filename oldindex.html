@@ -2,17 +2,71 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Website Not Found</title>
+<title>Yondvale's Website</title>
+<link href="yondvale.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("#continue").click(function(){
+		/*$(".audioDemo").trigger('play');*/
+		$("#ok").show();
+
+        });
+    	$("#ok").click(function(){
+    		$("#ok").hide();
+    	});
+});
+</script>
+
 </head>
+<body style="background-color:#000000">
 
-<body>
+<div id="container" style="background-color:black">
+
+ 
+<div id="topsec">
+<a href="tdiff.html"><img src="tdiff.jpeg" align="right"></a>
+</div>
+ 
+ <div id="namesec">
+ <p id="name">
+xavier yondvale 
+
+</p>
+ </div>
+ 
+ <div id="mainsec">
+ 
+<button id="ok" visibility: hidden><img src="dbox.jpg"></button>
 
 
-<img src="images/notavailable.gif" alt="" width="1106" height="984" usemap="#Map"/>
-<map name="Map">
-  <area shape="rect" coords="388,281,453,308" href="home.html">
-</map>
+<p id="statement">
+ 	looking<br>
+ 	for chaos<br>
+ 	the status<br>
+ 	quo blows<br>
+ 	life is a<br>
+ 	grind<br>
+ 	doing the<br>
+ 	the same shit<br>
+ 	every day<br>
+ 	of your<br>
+ 	fucking life
+ </p>
+
+ </div>
+ 
+
+<audio class="audioDemo" controls preload="none"> 
+   <source src="audio.mp3" type="audio/mpeg">
+</audio>
+
+ <div style="background-color:black; 	text-align: right">
+<button id="continue" visibility: visible>Continue</button>
+</div>
+
+
+</div>
 </body>
-
-
 </html>
+
